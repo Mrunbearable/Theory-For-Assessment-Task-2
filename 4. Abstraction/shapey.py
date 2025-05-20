@@ -24,7 +24,7 @@ class Circle(Shape):
         return 3.14 * self.radius ** 2
     
     def volume(self):
-        return 4/3 * 3.14 * self ** 3
+        return 4/3 * 3.14 * self.radius ** 3
     
 class Rectangle(Shape):
     def __init__(self, width, height):
@@ -37,7 +37,18 @@ class Rectangle(Shape):
     def area(self):
         return self.width * self.height
     
-    def are(self):
+    def volume(self):
+        return self.width ** 2 * self.height
+
+class Square(Shape):
+    def __init__(self, width):
+        self.width = width
+
+    def perimeter(self):
+        return self.width * 4
     
-class Sqaure(Shape):
-    def
+    def area(self):
+        return self.width * self.width
+    
+    def volume(self):
+        return self.width **3   
