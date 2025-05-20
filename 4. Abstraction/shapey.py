@@ -51,4 +51,4 @@ class Square(Shape):
         return self.width * self.width
     
     def volume(self):
-        return self.width **3   
+        return self.width ** 3   
