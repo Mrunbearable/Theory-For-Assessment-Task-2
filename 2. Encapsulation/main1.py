@@ -2,7 +2,7 @@ from bank_account import BankAccount
 
 # Creating two bank account instances
 account1 = BankAccount("123456", "Alice", 500)
-account2 = BankAccount("789012", "Bob", 1000)
+account2 = BankAccount("789012", "Brian", 1000)
 
 # Testing getter methods
 print(account1.get_account_number())
