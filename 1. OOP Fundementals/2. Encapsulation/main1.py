@@ -2,7 +2,6 @@ from bank_account import BankAccount
 
 account1 = BankAccount("178456", "Alice", 123)
 account2 = BankAccount("789012", "Jaquavis", 10000000)
-
 print(account1.get_account_number())
 print(account1.get_owner_name())
 print(account1.get_balance())
